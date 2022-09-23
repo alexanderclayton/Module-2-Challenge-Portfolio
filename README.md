@@ -30,6 +30,7 @@ The acceptance criteria for this project are as follows:
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 200px;
     }
+    
     .box1 {
         grid-column-start: 1;
         grid-column-end: 3;

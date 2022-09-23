@@ -24,17 +24,20 @@ a {
 }
 
 header {
-    position: relative;
     height: 300px;
     padding: 32px 64px 64px 64px;
     margin: 3px;
     border: solid;
     border-color: var(--white);
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 300px;
 }
 
 main {
-    position: relative;
     padding: 64px;
     margin: 3px;
     border: solid;
@@ -48,27 +51,28 @@ h2 {
     -webkit-text-stroke-color: var(--black);
 }
 
-header h1 {
-    font-size: 80px;
+#name {
+    font-size: 90px;
     margin-top: 0;
+    width: 33%;
 }
 
-header img {
-    position: absolute;
-    float: left;
-    height: 65%;
+#nav {
+    float: right;
 }
 
 header nav {
-    position: absolute;
     bottom: 48px;
     right: 48px;
     font-size: 36px;
+    width: 33%;
+}
+
+header nav ul {
     
 }
 
 header nav ul li {
-    display: inline;
     margin: 8px;
 }
 
