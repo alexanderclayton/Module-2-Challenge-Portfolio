@@ -54,10 +54,14 @@ h2 {
 #name {
     font-size: 90px;
     margin-top: 0;
-    width: 33%;
+    width: 25%;
 }
 
 #nav {
+    width: 25%;
+}
+
+#right {
     float: right;
 }
 
@@ -211,4 +215,31 @@ section div ul li a {
 
 section div ul li a:hover {
     box-shadow: inset 0px 0px 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    header div nav ul li a {
+        font-size: 20px;
+    }
+    
+    .bottom {
+        display: flex;
+
+    }
+
+    section div ul li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header div img {
+        display: none;
+    }
+    
 }
