@@ -46,7 +46,7 @@ The acceptance criteria for this project are as follows:
 6.  WHEN I resize the page or view the site on various screens and devices
     THEN I am presented with a responsive layout that adapts to my viewport
 
-    Working on this with flexboxes...
+    Added some flexbox properties to my header and contact info sections.  Used the @media rule to adjust some of the fonts and box properties when display sizes hit specified thresholds.  I thought I'd be using the flexboxes a lot more, but ended up only using them in two places.  It was interesting to note that the grid setup appears to be the most responsive to the changing in display sizes.
 
 The completed project resembles the following image when deployed:
 [ADD SCREENSHOT OF FINAL PRODUCT]
