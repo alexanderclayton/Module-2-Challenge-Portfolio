@@ -145,11 +145,12 @@ main h2 {
     border: solid;
     border-color: var(--grey-pink);
     margin: 2px;
-    background-image: url(../images/placeholder\ image\ 1.jpeg);
+    background-image: url(../images/group-project-1-image.png);
     background-size: cover;
     font-size: 36px;
-    color: var(--grey-pink);
+    color: var(--black);
     text-align: right;
+    text-decoration: none;
 }
 
 /*properties/image of the 3rd grid box*/
