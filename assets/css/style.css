@@ -163,6 +163,7 @@ main h2 {
     font-size: 36px;
     color: var(--black);
     text-align: right;
+    text-decoration: none;
 }
 
 /*properties/image of the 4th grid box*/
