@@ -189,6 +189,7 @@ main h2 {
     font-size: 36px;
     color: var(--grey-pink);
     text-align: left;
+    text-decoration: none;
 }
 
 /*creates a shadow for 1st grid box and changes cursor*/
